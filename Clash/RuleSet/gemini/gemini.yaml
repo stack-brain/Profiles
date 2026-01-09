@@ -3,14 +3,27 @@
 # SYNC_TIME: 2025-06-06 09:20:02
 # UPDATE_DATE: 2026-01-09
 payload:
+  # 1. 完整域名匹配
   - DOMAIN,ai.google.dev
+  - DOMAIN,alkalicore-pa.clients6.google.com
   - DOMAIN,alkalimakersuite-pa.clients6.google.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
   - DOMAIN,makersuite.google.com
+  
+  # 2. Google AI 服务
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,opal.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+  - DOMAIN-SUFFIX,gemini.google.com
   - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
-  - DOMAIN-SUFFIX,gemini.google.com
-  - DOMAIN-SUFFIX,notebooklm.google
+  
+  # 3. Google API 端点
+  - DOMAIN-SUFFIX,aida.googleapis.com
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,generativeai.google
   - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,apis.google.com
