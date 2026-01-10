@@ -9,6 +9,7 @@ aistudio.google.com
 opal.google.com
 notebooklm.google
 notebooklm.google.com
+notebooklm-pa.googleapis.com
 gemini.google.com
 bard.google.com
 deepmind.com
